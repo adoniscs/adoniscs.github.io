@@ -1,0 +1,76 @@
+body {
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+#app {
+    margin: 50px auto;
+    max-width: 50%;
+    padding: 20px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.315);
+    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.315);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.315);
+}
+
+#app input[type='text'] {
+    border: none;
+    border-bottom: 2px solid purple;
+    outline: 0;
+    padding: 10px;
+    margin-right: 5px;
+    background-color: #ccc;
+    width: 200px;
+    font-size: .9rem;
+}
+
+#app button {
+    cursor: pointer;
+    border: none;
+    outline: 0;
+    width: 200px;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    background-color: rgb(78, 0, 78);
+    color: #fff;
+    transition: ease-in-out 100ms;
+    font-size: .9rem;
+}
+
+#app button:hover {
+    background-color: rgba(63, 1, 63, 0.877);
+}
+
+#app ul{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #eee;
+    padding: 2px;
+    list-style: none;
+}
+
+#app ul li {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccc;
+    color: #222;
+    margin: 5px;
+    padding: 10px;
+}
+
+#app ul li a {
+
+    text-decoration: none;
+    color: rgb(90, 101, 112);
+    transition: ease-in-out 200ms;
+    width: 50px;
+}
+
+#app ul li a:hover {
+    color: rgba(63, 1, 63, 0.877);
+}
+
+#msg-error {
+    visibility: hidden;
+}
