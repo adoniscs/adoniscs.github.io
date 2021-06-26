@@ -500,6 +500,10 @@ footer .logo {
   margin-bottom: 1.5rem;
 }
 
+footer .logo span {
+  color: var(--text-color-light);
+}
+
 footer .brand p {
   color: var(--text-color-light);
   margin-bottom: 0.75rem;
